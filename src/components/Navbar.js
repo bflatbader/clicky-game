@@ -4,15 +4,15 @@ import brand from '../images/rainbow.png';
 
 const Navbar = props => {
     return (
-        <nav class="navbar fixed-top navbar-expand-md navbar-light">
-        <a href="#" class="navbar-brand">
-            <img src={brand} />
-        </a>
-        <ul class="navbar-nav mx-auto">
-            <li class="nav-item"></li>
+        <nav className="navbar fixed-top navbar-expand-md navbar-light">
+        <span className="navbar-brand">
+            <img src={brand} alt="" />
+        </span>
+        <ul className="navbar-nav mx-auto">
+            <li className="nav-item"></li>
         </ul>
-        <div class="nav-item">
-            Score: {props.score} &nbsp;<span class="seperator">|</span>&nbsp; Top Score: {props.highScore}
+        <div className="nav-item">
+            Score: {props.score} &nbsp;<span className="seperator">|</span>&nbsp; Top Score: {props.highScore}
         </div>
         </nav>
     );
