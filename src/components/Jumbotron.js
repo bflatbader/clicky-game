@@ -4,10 +4,10 @@ import logo from '../images/logo.png';
 
 function Jumbotron() {
     return (
-    <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <img src={logo} class="img-fluid img-logo" />
-        <p class="lead">Click on an image to earn points, but don't click on any more than once!</p>
+    <div className="jumbotron jumbotron-fluid text-center">
+    <div className="container">
+        <img src={logo} className="img-fluid img-logo" />
+        <p className="lead">Click on an image to earn points, but don't click on any more than once!</p>
     </div>
     </div>
     );

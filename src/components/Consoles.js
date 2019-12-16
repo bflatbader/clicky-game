@@ -21,7 +21,7 @@ function Consoles() {
                 <img src="https://github.com/bflatbader/clicky-game/blob/master/public/images/arcadia2001.jpg?raw=true" />
             </div>
             <div class="polaroid">
-                <img src="https://github.com/bflatbader/clicky-game/blob/master/public/images/atari2600.jpg?raw=true" />
+                <img src="https://github.com/bflatbader/clicky-game/blob/master/public/images/intellivision.jpg?raw=true" />
             </div>
             <div class="polaroid">
                 <img src="https://github.com/bflatbader/clicky-game/blob/master/public/images/atari5200.jpg?raw=true" />
