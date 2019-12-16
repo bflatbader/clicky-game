@@ -1,0 +1,18 @@
+.navbar {
+    margin: 0;
+    padding: 0;
+    background: #2D2D2A;
+    color: #fff;
+}
+
+.navbar-brand {
+    padding-bottom: 10px;
+}
+
+.nav-item {
+    padding-right: 5px;
+}
+
+.seperator {
+    color: #7a6655;
+}
