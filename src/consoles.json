@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Fairchild Channel F",
+        "image": "https://github.com/bflatbader/clicky-game/blob/master/public/images/apfmp1000.jpg?raw=true",
+        "clickState": false
+    },
+    {
+        "id": 2,
+        "name": "Bally Astrocade",
+        "image": "https://github.com/bflatbader/clicky-game/blob/master/public/images/ballyArcade.jpg?raw=true",
+        "clickState": false
+    },
+    {
+        "id": 3,
+        "name": "Atari 2600",
+        "image": "https://github.com/bflatbader/clicky-game/blob/master/public/images/atari2600.jpg?raw=true",
+        "clickState": false
+    },
+    {
+        "id": 4,
+        "name": "APF-MP1000",
+        "image": "https://github.com/bflatbader/clicky-game/blob/master/public/images/apfmp1000.jpg?raw=true",
+        "clickState": false
+    },
+    {
+        "id": 5,
+        "name": "Interton VC 4000",
+        "image": "https://github.com/bflatbader/clicky-game/blob/master/public/images/vc4000.jpg?raw=true",
+        "clickState": false
+    },
+    {
+        "id": 6,
+        "name": "Intellivision",
+        "image": "https://github.com/bflatbader/clicky-game/blob/master/public/images/intellivision.jpg?raw=true",
+        "clickState": false
+    },
+    {
+        "id": 7,
+        "name": "VTech CreatiVision",
+        "image": "https://github.com/bflatbader/clicky-game/blob/master/public/images/creativision.jpg?raw=true",
+        "clickState": false
+    },
+    {
+        "id": 8,
+        "name": "Arcadia 2001",
+        "image": "https://github.com/bflatbader/clicky-game/blob/master/public/images/arcadia2001.jpg?raw=true",
+        "clickState": false
+    },
+    {
+        "id": 9,
+        "name": "ColecoVision",
+        "image": "https://github.com/bflatbader/clicky-game/blob/master/public/images/colecovision.jpg?raw=true",
+        "clickState": false
+    },
+    {
+        "id": 10,
+        "name": "Atari 5200",
+        "image": "https://github.com/bflatbader/clicky-game/blob/master/public/images/atari5200.jpg?raw=true",
+        "clickState": false
+    },
+    {
+        "id": 11,
+        "name": "Atari 7800",
+        "image": "https://github.com/bflatbader/clicky-game/blob/master/public/images/atari7800.jpg?raw=true",
+        "clickState": false
+    },
+    {
+        "id": 12,
+        "name": "Sega Master System",
+        "image": "https://github.com/bflatbader/clicky-game/blob/master/public/images/segaMasterSystem.jpg?raw=true",
+        "clickState": false
+    }
+]

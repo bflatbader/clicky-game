@@ -1,9 +1,10 @@
 .jumbotron {
     background: none;
+    padding-bottom: 0;
 }
 
 .img-logo {
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .lead {
