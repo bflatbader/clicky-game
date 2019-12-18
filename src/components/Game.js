@@ -10,6 +10,7 @@ class Game extends Component {
     state = {
         score : 0,
         highScore: 0,
+        message: "",
         consoles: this.shuffleConsoles()
     }
 
@@ -26,6 +27,7 @@ class Game extends Component {
                 <Navbar 
                     score={state.score}
                     highScore={state.highScore}
+                    message={state.message}
                 />
                 <Jumbotron />
                 <Wrapper>

@@ -9,7 +9,7 @@ const Navbar = props => {
             <img src={brand} alt="" />
         </span>
         <ul className="navbar-nav mx-auto">
-            <li className="nav-item"></li>
+    <li className="nav-item">{props.message}</li>
         </ul>
         <div className="nav-item">
             Score: {props.score} &nbsp;<span className="seperator">|</span>&nbsp; Top Score: {props.highScore}
