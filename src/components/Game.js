@@ -29,9 +29,7 @@ class Game extends Component {
                 />
                 <Jumbotron />
                 <Wrapper>
-                    <Polaroids 
-                        // {state.consoles.map => }
-                    />
+                    <Polaroids cards={state.consoles} />
                 </Wrapper>
             </div>
         );

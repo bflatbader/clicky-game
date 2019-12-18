@@ -1,10 +1,14 @@
 import React from "react";
 import "../styles/Polaroids.css";
 
-const Polaroids = props => {
+function Polaroids(props) {
     return (
-        <div className="polaroid">
-            <img src={props.image} alt={props.name} />
+        <div className="polaroids">
+        {props.cards.map(card => (
+            <div className="polaroid">
+                <img src={card.image} alt={card.name} />
+            </div>
+        ))}
         </div>
     );
 }
