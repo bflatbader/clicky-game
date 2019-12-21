@@ -5,8 +5,8 @@ function Polaroids(props) {
     return (
         <div className="polaroids">
         {props.cards.map(card => (
-            <div className="polaroid" key={card.id} data-value={card.clickState}>
-                <img src={card.image} alt={card.name} />
+            <div className="polaroid" key={card.id} onClick={e => props.clickEvent(e.target)}>
+                <img src={card.image} data-value={card.clickState} alt={card.name} />
             </div>
         ))}
         </div>

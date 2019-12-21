@@ -11,12 +11,22 @@ class Game extends Component {
         score : 0,
         highScore: 0,
         message: "",
-        consoles: this.shuffleConsoles()
+        consoles: consoles
+    }
+
+    componentDidMount() {
+        this.setState({ consoles: this.shuffleConsoles() });
     }
 
     shuffleConsoles() {
         let shuffled = consoles.sort(function(a, b){return 0.5 - Math.random()});
         return shuffled;
+    }
+
+    clickEvent = this.handleClick.bind(this);
+    handleClick(element) {
+        console.log(element);
+        this.setState({ consoles: this.shuffleConsoles() });
     }
 
     render () {
@@ -31,7 +41,10 @@ class Game extends Component {
                 />
                 <Jumbotron />
                 <Wrapper>
-                    <Polaroids cards={state.consoles} />
+                    <Polaroids 
+                        cards={state.consoles} 
+                        clickEvent={this.clickEvent}
+                    />
                 </Wrapper>
             </div>
         );
