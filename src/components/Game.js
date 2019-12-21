@@ -73,7 +73,7 @@ class Game extends Component {
 			// A correct guess was given
 			await this.setState({
 				score: currentScore,
-				message: 'You guessed right!',
+				message: 'YOU GUESSED RIGHT!',
 				msgColor: 'green',
 				consoles: this.shuffleConsoles(consoles)
 			});
@@ -86,7 +86,7 @@ class Game extends Component {
 		} else {
 			// Incorrect guess was given
 			await this.setState({
-				message: 'You guessed wrong! The game is resetting.',
+				message: 'WRONG! The game is resetting.',
 				shake: true,
 				msgColor: 'red'
             });

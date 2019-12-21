@@ -19,6 +19,7 @@
 }
 
 .green {
+    font-weight: 500;
     animation: correct 0.5s;
 }
 
@@ -28,11 +29,11 @@
     }
 
     25% {
-        color: green;
+        color: #3bb273;
     }
 
     75% {
-        color: green;
+        color: #3bb273;
     }
 
     100% {
@@ -41,6 +42,7 @@
 }
 
 .red {
+    font-weight: 500;
     animation: incorrect 0.5s;
 }
 
@@ -50,11 +52,11 @@
     }
 
     25% {
-        color: red;
+        color: #e15554;
     }
 
     75% {
-        color: red;
+        color: #e15554;
     }
 
     100% {
